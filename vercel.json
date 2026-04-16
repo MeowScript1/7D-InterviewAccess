@@ -1,10 +1,12 @@
 {
   "experimentalServices": {
     "frontend": {
-      "entrypoint": "frontend"
+      "entrypoint": "frontend",
+      "mount": "/"
     },
     "backend": {
-      "entrypoint": "backend"
+      "entrypoint": "backend",
+      "mount": "/api"
     }
   }
 }
